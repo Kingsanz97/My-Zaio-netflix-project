@@ -1,0 +1,75 @@
+
+/* a star adds css style to all elements of a webpage */
+*{
+    color: purple;
+    font-size: 20px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2{
+    color: blue;
+}
+/* one item per id selector*/
+#faq-item{
+    color: red;
+}
+/* project fonts */
+.lg-font{
+    font-size: 40px;
+}
+
+.md-font{
+    font-size: 25px;
+}
+
+.sm-font{
+    font-size: 18px;
+}
+/* main color scheme */
+.primary{
+    color: blue;
+    font-size: 10px;
+}
+/* to make all elements equal size */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.my-box{width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    /* clockwise values */
+    padding: 10px 10px 10px 10px;
+    border: 10px dashed yellow;
+    margin: 10px;
+
+}
+
+h2{
+    font-size: 2.3rem;
+    color: white;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.banner-container{
+    font-size: 20px;
+}
+
+.get-started-form h3{
+    font-size: 2em;
+}
